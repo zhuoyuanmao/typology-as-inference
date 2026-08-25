@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="350" viewBox="0 0 680 350" role="img" font-family="'PingFang SC','Microsoft YaHei','Helvetica Neue',Arial,sans-serif">
+<title>类型分化的三阶段训练方案</title>
+<desc>分化、配对、整合三个阶段各自的目标、策略、数据与正则设置。</desc>
+<rect x="0" y="0" width="680" height="350" fill="#FFFFFF"/>
+
+<rect x="40" y="50" width="190" height="260" rx="12" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.5"/>
+<text x="60" y="76" dominant-baseline="central" font-size="14" font-weight="500" fill="#2C2C2A">阶段 I · 分化</text>
+<text x="60" y="95" dominant-baseline="central" font-size="12" fill="#5F5E5A">约 0–20 岁</text>
+<line x1="60" y1="108" x2="210" y2="108" stroke="#B4B2A9" stroke-width="0.5"/>
+<text x="60" y="126" dominant-baseline="central" font-size="12" fill="#888780">目标</text>
+<text x="60" y="144" dominant-baseline="central" font-size="12" fill="#2C2C2A">打破对称,单点胜出</text>
+<text x="60" y="174" dominant-baseline="central" font-size="12" fill="#888780">策略</text>
+<text x="60" y="192" dominant-baseline="central" font-size="12" fill="#2C2C2A">高学习率 · 贪婪调用</text>
+<text x="60" y="222" dominant-baseline="central" font-size="12" fill="#888780">数据</text>
+<text x="60" y="240" dominant-baseline="central" font-size="12" fill="#2C2C2A">单一环境 · 高密度</text>
+<text x="60" y="270" dominant-baseline="central" font-size="12" fill="#888780">正则</text>
+<text x="60" y="288" dominant-baseline="central" font-size="12" fill="#2C2C2A">无,此阶段需要极化</text>
+
+<rect x="245" y="50" width="190" height="260" rx="12" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.5"/>
+<text x="265" y="76" dominant-baseline="central" font-size="14" font-weight="500" fill="#2C2C2A">阶段 II · 配对</text>
+<text x="265" y="95" dominant-baseline="central" font-size="12" fill="#5F5E5A">约 20–35 岁</text>
+<line x1="265" y1="108" x2="415" y2="108" stroke="#B4B2A9" stroke-width="0.5"/>
+<text x="265" y="126" dominant-baseline="central" font-size="12" fill="#888780">目标</text>
+<text x="265" y="144" dominant-baseline="central" font-size="12" fill="#2C2C2A">建立供料通道</text>
+<text x="265" y="174" dominant-baseline="central" font-size="12" fill="#888780">策略</text>
+<text x="265" y="192" dominant-baseline="central" font-size="12" fill="#2C2C2A">课程学习 · 主导头 dropout</text>
+<text x="265" y="222" dominant-baseline="central" font-size="12" fill="#888780">数据</text>
+<text x="265" y="240" dominant-baseline="central" font-size="12" fill="#2C2C2A">强制跨类别配对任务</text>
+<text x="265" y="270" dominant-baseline="central" font-size="12" fill="#888780">正则</text>
+<text x="265" y="288" dominant-baseline="central" font-size="12" fill="#2C2C2A">主导功能调用频次上限</text>
+
+<rect x="450" y="50" width="190" height="260" rx="12" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.5"/>
+<text x="470" y="76" dominant-baseline="central" font-size="14" font-weight="500" fill="#2C2C2A">阶段 III · 整合</text>
+<text x="470" y="95" dominant-baseline="central" font-size="12" fill="#5F5E5A">约 35 岁以后</text>
+<line x1="470" y1="108" x2="620" y2="108" stroke="#B4B2A9" stroke-width="0.5"/>
+<text x="470" y="126" dominant-baseline="central" font-size="12" fill="#888780">目标</text>
+<text x="470" y="144" dominant-baseline="central" font-size="12" fill="#2C2C2A">降 σ 而不降 τ</text>
+<text x="470" y="174" dominant-baseline="central" font-size="12" fill="#888780">策略</text>
+<text x="470" y="192" dominant-baseline="central" font-size="12" fill="#2C2C2A">低风险离线采样 π_u</text>
+<text x="470" y="222" dominant-baseline="central" font-size="12" fill="#888780">数据</text>
+<text x="470" y="240" dominant-baseline="central" font-size="12" fill="#2C2C2A">被拒候选 replay buffer</text>
+<text x="470" y="270" dominant-baseline="central" font-size="12" fill="#888780">正则</text>
+<text x="470" y="288" dominant-baseline="central" font-size="12" fill="#2C2C2A">熵正则 · 增大耦合项 λ</text>
+</svg>

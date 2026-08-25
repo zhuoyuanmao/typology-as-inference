@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="290" viewBox="0 0 680 290" role="img" font-family="'PingFang SC','Microsoft YaHei','Helvetica Neue',Arial,sans-serif">
+<title>四阶段推理流水线</title>
+<desc>知觉、赋值、承诺、同化四个阶段,定向 i/e 作为贯穿全程的调制参数。</desc>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#5F5E5A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect x="0" y="0" width="680" height="290" fill="#FFFFFF"/>
+
+<rect x="40" y="60" width="136" height="70" rx="8" fill="#EEEDFE" stroke="#AFA9EC" stroke-width="0.5"/>
+<text x="108" y="88" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#3C3489">① 知觉</text>
+<text x="108" y="110" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#534AB7">S·N 选 key 来源</text>
+
+<rect x="194" y="60" width="136" height="70" rx="8" fill="#E1F5EE" stroke="#5DCAA5" stroke-width="0.5"/>
+<text x="262" y="88" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#085041">② 赋值</text>
+<text x="262" y="110" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#0F6E56">T·F 选转写结构</text>
+
+<rect x="348" y="60" width="136" height="70" rx="8" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.5"/>
+<text x="416" y="88" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#2C2C2A">③ 承诺</text>
+<text x="416" y="110" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#5F5E5A">J·P 决定端口顺序</text>
+
+<rect x="502" y="60" width="136" height="70" rx="8" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.5"/>
+<text x="570" y="88" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#2C2C2A">④ 同化</text>
+<text x="570" y="110" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#5F5E5A">仅 i 向留下沉淀</text>
+
+<line x1="180" y1="95" x2="190" y2="95" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="334" y1="95" x2="344" y2="95" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="488" y1="95" x2="498" y2="95" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#a)"/>
+
+<path d="M570 130 L570 165 L108 165 L108 134" fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="339" y="182" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#5F5E5A">输出回流,成为下一轮的实测 token</text>
+
+<rect x="40" y="200" width="598" height="48" rx="8" fill="#FAECE7" stroke="#F0997B" stroke-width="0.5" stroke-dasharray="5 4"/>
+<text x="339" y="224" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#993C1D">定向 i / e ＝ 后验中先验与似然的权重比,贯穿 ①②④ 全程,不是独立阶段</text>
+</svg>
