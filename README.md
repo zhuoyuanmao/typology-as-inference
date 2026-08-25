@@ -1,4 +1,4 @@
-# Typology as Inference
+# Cognitive Functions as Inference Operators
 
 ## 荣格八维的自回归推理架构
 
@@ -320,11 +320,11 @@ $\mathcal{L}_{\text{coupling}}$ 奖励 $\pi_c$ 显式建模 $\pi_u$ 的预测而
 受到启发并形成论文,请引用本仓库:
 
 ```bibtex
-@misc{mao2026typology,
+@misc{mao2026cognitive,
   author       = {Mao, Zhuoyuan},
-  title        = {Typology as Inference: 荣格八维的自回归推理架构},
+  title        = {Cognitive Functions as Inference Operators},
   year         = {2026},
-  howpublished = {\url{https://github.com/zhuoyuanmao/typology-as-inference}},
+  howpublished = {\url{https://github.com/zhuoyuanmao/cognitive-functions-as-inference-operators}},
   note         = {GitHub repository}
 }
 ```
